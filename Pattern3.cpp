@@ -7,14 +7,18 @@ int main(){
     cin>>n;
     cout<<"Enter number of columns: ";
     cin>>m;
-    for (int i = 1; i <= n; i++){
-        for(int j = 1; j<=m; j++){
-            if(i == 0 && i == 2){
-                cout<<"* ";
+    for (int i = 0; i < n; i++){
+        if(i == 0 || i == n-1){
+            for(int j = 0; j < m; j++){
+                cout<< "* ";
             }
-            else{
-                if(j == 0 && j == 2)
+        }
+        else{
+            cout<<"* ";
+            for(int k = 0; k < m-2; k++){
+                cout << "  ";
             }
+            cout<<"* ";
         }
         cout<<endl;
     }
