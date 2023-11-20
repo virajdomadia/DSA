@@ -12,7 +12,7 @@ int main(){
                 cout<<j+1;
             }
             else{
-                cout<<" ";
+                cout<< " ";
             }
         }
         cout<<endl;
