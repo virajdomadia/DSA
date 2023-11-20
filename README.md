@@ -2,7 +2,7 @@
 
 ## Patterns
 
-### 001. Pattern01 - Solid Rectangle
+#### 001. Pattern01 - Solid Rectangle
 ### 002. Pattern02 - Solid Square
 ### 003. Pattern03 - Hollow Rectangle
 ### 004. Pattern04 - Half Pyramid
