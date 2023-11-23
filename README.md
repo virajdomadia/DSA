@@ -31,3 +31,7 @@
 #### 027. Pattern27 - Butterfly Pattern
 #### 028. Pattern28 - Numeric Full Pyramid
 #### 029. Pattern29 - Numeric Hollow Pyramid
+
+## Functions
+
+#### 030. Function01 - Add 2 numbers
