@@ -1,24 +1,24 @@
 #include<iostream>
 using namespace std;
 
-void grade(int mark){
+char grade(int mark){
     if(mark >= 90){
-        cout<<"A";
+        return 'A';
     }
     else if(mark >= 80){
-        cout<<"B";
+        return 'B';
     }
     else if(mark >= 70){
-        cout<<"C";
+        return 'C';
     }
     else if(mark >= 60){
-        cout<<"D";
+        return 'D';
     }
     else if(mark >= 50){
-        cout<<"E";
+        return 'E';
     }
     else{
-        cout<<"F";
+        return 'F';
     }
 }
 int main(){
@@ -26,5 +26,5 @@ int main(){
     cout<<"Enter your Marks: ";
     cin>>mark;
 
-    grade(mark);
+    cout<<grade(mark);
 }
