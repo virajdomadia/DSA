@@ -3,7 +3,7 @@ using namespace std;
 
 int sumEven(int n){
     int sum = 0;
-    for(int i = 2; i<=n; i+=2){
+    for(int i=2; i<=n; i+=2){
         sum = sum + i;        
     }
     return sum;
