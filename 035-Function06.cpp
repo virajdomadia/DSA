@@ -6,6 +6,7 @@ float areaCircle(float r){
     area = 3.14*r*r;
     return area;
 }
+
 int main(){
     float r;
     cout<<"Enter the radius of circle: ";
