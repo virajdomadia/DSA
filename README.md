@@ -35,3 +35,8 @@
 ## Functions
 
 #### 030. Function01 - Add 2 numbers
+#### 031. Function02 - Find Max of 3 Number
+#### 032. Function03 - Counting from 1 to N
+#### 033. Function04 - function of students and grade problem
+#### 034. Function05 - Sum of Even number upto N
+#### 035. Function06 - Function to display area of circle
