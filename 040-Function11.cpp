@@ -22,7 +22,6 @@ int reverseInt(int n){
     }
     return isNeg ? -ans:ans;
 }
-
 int main(){
     int n;
     cout<<"Enter Number: ";
